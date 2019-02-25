@@ -132,7 +132,8 @@ Le fichier `hosts` se trouve au chemin `/etc/hosts`. Sa structure est la suivant
 * une seule IP par ligne
 * une ligne est une correspondance entre une IP et un (ou plusieurs) noms (FQDN ou nom d'hôte)
 * on peut définir des commentaires avec `#`
-Par exemple, pour faire correspondre l'IP `192.168.1.19` aux noms `monpc` et `monpc.chezmoi` :
+Par exemple depuis mon laptop je veux acceder à mon ordi fix qui à l'IP `192.168.1.19`et je veux pouvoir le ping en faisant
+`ping monpc.chezmoi`, j'écris dans le fichier /etc/hosts de mon **laptop** :
 ```
 192.168.1.19  monpc monpc.chezmoi
 ```
